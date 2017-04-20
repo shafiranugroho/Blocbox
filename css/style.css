@@ -5,7 +5,12 @@
    font-family: "Lato", Helvetica, Arial, sans-serif;
    color:#333333;
  }
- h1, h2, h3, h4, h5, h6 {
+ h1{
+   font-family: "Varela Round", Helvetica, Arial, sans-serif;
+   animation-name: "fadeInUpBig";
+   animation-duration: 4s;
+ } 
+ h2, h3, h4, h5, h6 {
    font-family: "Varela Round", Helvetica, Arial, sans-serif;
  }
  h2 {
@@ -41,3 +46,20 @@
    min-height: 1px;
    margin:0 2% 20px;
  }
+ .animate {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+     }
+     </style>
