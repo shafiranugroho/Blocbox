@@ -2,8 +2,7 @@
    overflow-x: hidden;
  }
  body {
-   font-family: "Lato", Helvetica, Arial, sans-serif;
-   color:#333333;
+   font-family: "Nunito";
  }
  h1{
    font-family: "Nunito";
@@ -484,14 +483,6 @@ footer .one-third {
       width: 1800px;
     }
   }
-
-  @media (min-device-width: 375px)  
-{
-   .container {
-      width:480px;
-   }
-}
-
   
    
 /* DASHBOARD */
