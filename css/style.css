@@ -484,6 +484,15 @@ footer .one-third {
       width: 1800px;
     }
   }
+
+  @media (min-device-width: 375px)  
+{
+   .container {
+      width:480px;
+   }
+}
+
+  
    
 /* DASHBOARD */
  .dashboard {
