@@ -489,7 +489,7 @@ footer .one-third {
  .dashboard {
    background: #F7F7F7;
  }
- .left-nav {
+.left-nav {
    height: 100%;
    width: 280px;
    position: absolute;
@@ -515,6 +515,31 @@ footer .one-third {
      -moz-transform: translate(0,0); /** Firefox **/
      z-index: 100;
  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 180px; 
+    }
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #34495E;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #34495E;
+    color: white;
+}
+
  .hamburger {
    position:absolute;
    z-index: 1000;
@@ -592,6 +617,11 @@ footer .one-third {
  }
 
   /* LEFT NAVBAR SETTINGS */
+
+  .active {
+    background-color: #4CAF50;
+    color: white;
+}
  .left-nav .settings {
    position:absolute;
    background:#22303E;
