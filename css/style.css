@@ -140,6 +140,7 @@
  }
  header nav ul > li.btn-outline:hover > a {
    color:#000000;
+   background: #ffffff
  }
 
  header .site-logo {
@@ -357,6 +358,7 @@ header .hero img {
 }
 
 /* FOOTER */
+
 footer {
   background-color: #561d68;
   color: #FFFFFF;
@@ -516,29 +518,39 @@ footer .one-third {
      z-index: 100;
  }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 180px; 
-    }
 
-li a {
+
+.cornerup li a:hover:not(.active) {
+    background-color: #000000;
+    color: #ffffff;
+ }
+
+ .cornerup btn-outline li a:hover:not(.active) {
+    background-color: #ffffff;
+    color: #000000;
+ }
+
+li b {
     display: block;
-    color: #000;
+    color: #ffffff;
     padding: 8px 16px;
     text-decoration: none;
+    font-family: "Nunito";
+    font-size:16px;
+   font-weight: normal;
 }
 
-li a.active {
+li b.active {
     background-color: #34495E;
     color: white;
 }
 
-li a:hover:not(.active) {
+li b:hover:not(.active) {
     background-color: #34495E;
-    color: white;
-}
+    color: #ffffff;
+ }
+
+
 
  .hamburger {
    position:absolute;
@@ -780,5 +792,4 @@ li a:hover:not(.active) {
   font-size:12px;
   float:none;
 }
-
 
