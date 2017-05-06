@@ -661,6 +661,16 @@ li b:hover:not(.active) {
    margin-top:8px;
  }
 
+  .left-nav .settings a.cog {
+   color:#FFFFFF;
+   text-decoration: none;
+   text-align: right;
+   float: right;
+   margin-right:10px;
+   margin-top:-3px;
+ }
+
+
  /* CONTENT */
  .content {
   padding: 6em 1% 1.5em;
@@ -787,4 +797,5 @@ li b:hover:not(.active) {
   font-size:12px;
   float:none;
 }
+
 
